@@ -31,8 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -42,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,6 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
+animals	food
 
 
 
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -97,7 +97,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
  
 ==========
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -120,6 +120,9 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+v120-ent-007:qux student$ rmdir animals
+rmdir: animals: No such file or directory
+v120-ent-007:qux student$ ls -l
 
 
 
@@ -131,7 +134,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -142,7 +145,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/volumes
 
 
 ==========
@@ -153,7 +156,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/volumes
 
 
 ==========
@@ -165,7 +168,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 16. Type:
@@ -175,12 +178,12 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+v120-ent-007.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
@@ -203,7 +206,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir
 
 
 ==========
@@ -212,14 +215,15 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
 ----------
-
+aardvark	foo		lemon		pineapple	strawberry
+animals		food		orange	 9/11/19 7:45pm 
 
 
 ==========
@@ -239,52 +243,52 @@ What command did you use?
 
 What command did you use?
 ----------
-
-
+cd ~
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+ls -p
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+ls ~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+where you are in termianl
 
 ==========
 29. What's a directory?
 ----------
 
-
+the place that you are in, in terminal
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+users/student/mtec1002
